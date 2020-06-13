@@ -1,0 +1,29 @@
+    html {
+      position: relative;
+      min-height: 100%;
+    }
+    
+    body {
+margin-bottom: 80px;
+background-image: url("../../assets/images/nytbackground.jpg");
+    }
+
+    .jumbotron {
+      position: relative;
+      background-image: url("../../assets/images/nytbackground.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 100%;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 0;
+      box-shadow: 10px 5px 20px 2px lightslategray
+    }
+
+
+
+#main-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
