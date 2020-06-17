@@ -1,4 +1,4 @@
-# Hacker scrape
+# Hacker Scrape/News Scrape
 Project Title
 Hacker Scrape- This is a simple news scraper using news.ycombinator.com that allows you to scrape, save, and make notes. 
 
