@@ -3,11 +3,15 @@ Project Title
 Hacker Scrape- This is a simple news scraper using news.ycombinator.com that allows you to scrape, save, and make notes. 
 
 Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+1. Commence scrape
+2. save articles
+3. make notes on articles
+4. Delete saved articles
+5. Mongo Db updated during each action
 
 
 Deployment
-heroku
+heroku: https://cryptic-forest-75876.herokuapp.com/
 
 Built With
 HTML
