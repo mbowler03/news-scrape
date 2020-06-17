@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mongo Scraper</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+  <a class="navbar-brand" href="#">Hacker Scrape</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">  
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="saved.html">Saved Items <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+      
+<div class="jumbotron" id="jumbotron">
+  <div class="container">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <div class="modal-title"></div>
+        </div>
+        <div class="modal-body">
+          <p id="note">Notes</p>
+          <div class="input"></div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row" id="articles">
+
+  </div>
+</div>
+
+    <!-- FOOTER -->
+    <footer id="main-footer" class="p-5 bg-dark text-white">
+      <div class="row">
+        <div class="col-md-6">
+          <a href="http://matthewbbowler.com" class="btn btn-outline-light">
+            <i class="fas fa-cloud fa-1x p-2"></i> matthewbbowler.com
+          </a>
+					<a href="https://github.com/mbowler03" class="btn btn-outline-light">
+            <i class="fab fa-github fa-1x p-2"></i>
+          </a>
+					<a href="http://www.linkedin.com/in/matthewbowler03/" class="btn btn-outline-light">
+            <i class="fab fa-linkedin fa-1x p-2"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  
+    <!-- Scripts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="saved.js"></script>
+  </body>
+</html>
+
+
+
