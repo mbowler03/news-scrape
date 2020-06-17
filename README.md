@@ -7,11 +7,11 @@ Getting Started
 2. save articles
 3. make notes on articles
 4. Delete saved articles
-5. Mongo Db updated during each action
+5. Mongo Db updated during each action through heroku addons:create mongolab
 
 
 Deployment
-heroku: https://cryptic-forest-75876.herokuapp.com/
+heroku: https://cryptic-forest-75876.herokuapp.com/ 
 
 Built With
 HTML
